@@ -10,7 +10,7 @@
 angular.module('hackerNewsHomepageApp')
   .controller('MainCtrl', ['$scope', '$window', function ($scope, $window) {
 
-    var ref = new Firebase("http://hacker-news.firebaseio.com/v0/");
+    var ref = new Firebase('http://hacker-news.firebaseio.com/v0/');
   	var itemRef = ref.child('item');
 
     var self = this;
