@@ -8,12 +8,13 @@
       <div class="panel panel-primary">
         <div class="panel-heading" ng-click="openLink(story)">{{story.title}}</div>
         <div class="panel-body">
-        <div class="storyauthor">
-          <p class="author">Author {{story.by}}</p>
-        </div>
-        <div class="storyScoreComments">
-          <p class="score">Score: {{story.score}}</p>
-          <p class="comments">{{story.descendants}} Comments</p>
+          <div class="storyauthor">
+            <p class="author">Author: {{story.by}}</p>
+          </div>
+          <div class="storyScoreComments">
+            <p class="score">Score: {{story.score}}</p>
+            <p class="comments">{{story.descendants}} Comments</p>
+          </div>
         </div>
       </div>
     </li>
