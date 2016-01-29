@@ -5,7 +5,8 @@
     <title></title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width">
-    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css"/>
+    <script src="https://cdn.firebase.com/js/client/2.2.4/firebase.js"></script>
     <link rel="stylesheet" href="styles/main.css">
   </head>
   <body ng-app="hackerNewsHomepageApp">
@@ -31,8 +32,15 @@
       </div>
     </div>
 
+
+
+
     <div class="container">
     <div ng-view=""></div>
+    </div>
+
+    <div id="items">
+
     </div>
 
     <div class="footer">

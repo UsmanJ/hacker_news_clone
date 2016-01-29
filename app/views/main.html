@@ -4,20 +4,20 @@
 
 <div class="row marketing" ng-show="loaded">
   <ul class="list-group">
-    <li ng-repeat="result in stories">
+    <li ng-repeat="story in topStories">
       <div class="info">
         <div class="storyTitle">
-          <p class="title">{{result.title}}</p>
+          <p class="title">{{story.title}}</p>
         </div>
         <div class="storyAuther">
-          <p class="auther">By {{result.by}}</p>
+          <p class="auther">By {{story.by}}</p>
         </div>
         <div class="storyUrl">
-          <p class="url">Link to story: {{result.url}}</p>
+          <p class="url">Link to story: {{story.url}}</p>
         </div>
         <div class="storyScoreComments">
-          <p class="score">Score: {{result.score}}</p>
-          <p class="comments">{{result.descendants}} Comments</p>
+          <p class="score">Score: {{story.score}}</p>
+          <p class="comments">{{story.descendants}} Comments</p>
         </div>
       </div>
     </li>
