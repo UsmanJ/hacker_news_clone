@@ -2,18 +2,14 @@
   <h3>Top 30 Hacker News Stories</h3>
 </div>
 
-<div class="row marketing" ng-show="loaded">
+<div class="row marketing" ng-show="main.loaded">
   <ul class="list-group">
-    <li ng-repeat="story in topStories">
-      <div class="info">
-        <div class="storyTitle">
-          <p class="title">{{story.title}}</p>
-        </div>
-        <div class="storyAuther">
-          <p class="auther">By {{story.by}}</p>
-        </div>
-        <div class="storyUrl">
-          <p class="url">Link to story: {{story.url}}</p>
+    <li ng-repeat="story in main.topStories">
+      <div class="panel panel-primary">
+        <div class="panel-heading" ng-click="openLink(story)">{{story.title}}</div>
+        <div class="panel-body">
+        <div class="storyauthor">
+          <p class="author">Author {{story.by}}</p>
         </div>
         <div class="storyScoreComments">
           <p class="score">Score: {{story.score}}</p>

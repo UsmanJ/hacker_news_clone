@@ -81,3 +81,47 @@ body {
     border-bottom: 0;
   }
 }
+
+.list-group {
+  list-style-type: decimal;;
+}
+
+.info {
+  border: 1px solid;
+  margin-bottom: 10px;
+  padding: 25px;
+  background: #ffffe5;
+  padding-bottom: 40px;
+}
+
+.storyTitle {
+
+}
+
+.title:link {
+  font-size: 20px;
+}
+
+.title:hover {
+  text-decoration: underline;
+}
+
+.storyauthor {
+
+}
+
+.author {
+
+}
+
+.storyScoreComments {
+
+}
+
+.score {
+  float: left;
+}
+
+.comments {
+  float: right;
+}
