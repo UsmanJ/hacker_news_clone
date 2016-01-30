@@ -92,3 +92,7 @@ body {
 .comments {
   float: right;
 }
+
+.panel-heading {
+  cursor: pointer !important;
+}
